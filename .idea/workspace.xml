@@ -76,7 +76,7 @@
       <file leaf-file-name="config.ru" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.ru">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0697134">
+            <state line="8" column="18" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0929512">
               <folding />
             </state>
           </provider>
@@ -523,7 +523,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0697134">
+        <state line="8" column="18" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0929512">
           <folding />
         </state>
       </provider>

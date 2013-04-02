@@ -1,0 +1,18 @@
+!!!
+%html
+  = partial 'shared/head'
+
+  %body{:class => page_classes}
+    %header
+      .container
+        = partial 'shared/nav'
+        .title Kate Andrew
+    .main
+      .container
+        = left_nav
+        .content
+          = yield
+      .clear
+  %footer
+    .container
+      = partial 'shared/footer'

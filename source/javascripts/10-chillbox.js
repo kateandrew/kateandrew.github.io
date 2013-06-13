@@ -578,7 +578,7 @@ function Overlay(){
 											zoom:'1',
 											width:winWidth,
 											whiteSpace:'nowrap', 
-											position:'absolute',
+											position:'fixed',
 											zIndex:'1000',
 											height:'4096px'
 											});			

@@ -15,7 +15,7 @@
     <file path="/home.css.sass" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1363763457725" ignored="false" />
     <file path="/design.html.haml" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1364891219480" ignored="false" />
     <file path="/config.rb" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1371111813766" ignored="false" />
-    <file path="/gallery.rb" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1364879487003" ignored="false" />
+    <file path="/gallery.rb" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1371157614076" ignored="false" />
     <file path="/_gallery.html.haml" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1364889502009" ignored="false" />
     <file path="/Gemfile" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1371112464273" ignored="false" />
     <file path="/kateandrew.js" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1364875965323" ignored="false" />
@@ -29,9 +29,10 @@
     <file path="/_section_title.html.haml" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1364889393311" ignored="false" />
     <file path="/experience.html.haml" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1364889623038" ignored="false" />
     <file path="/inspiration.html.haml" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1364889646262" ignored="false" />
-    <file path="/contact.html.haml" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1371102742192" ignored="false" />
+    <file path="/contact.html.haml" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1371157796796" ignored="false" />
     <file path="/CNAME" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1371116254579" ignored="false" />
     <file path="/index.html" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1371115904455" ignored="false" />
+    <file path="/.gitignore" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1371156741326" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +52,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CNAME" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CNAME" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/CNAME">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="6" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gallery.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="94" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_gallery.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/shared/_gallery.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="262" selection-start="231" selection-end="231" vertical-scroll-proportion="-3.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="design.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/design.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="24" selection-start="2875" selection-end="2875" vertical-scroll-proportion="-25.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/contact.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="18" selection-start="280" selection-end="280" vertical-scroll-proportion="0.28846154">
               <folding />
             </state>
           </provider>
@@ -70,11 +116,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/source/shared/_gallery.html.haml" />
-        <option value="$PROJECT_DIR$/build/config.ru" />
-        <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/source/javascripts/10-chillbox.js" />
-        <option value="$PROJECT_DIR$/source/contact.html.haml" />
         <option value="$PROJECT_DIR$/source/design.html.haml" />
         <option value="$PROJECT_DIR$/source/experience.html.haml" />
         <option value="$PROJECT_DIR$/source/inspiration.html.haml" />
@@ -86,6 +128,10 @@
         <option value="$PROJECT_DIR$/build/CNAME" />
         <option value="$PROJECT_DIR$/source/index.html.haml" />
         <option value="$PROJECT_DIR$/source/CNAME" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/gallery.rb" />
+        <option value="$PROJECT_DIR$/source/shared/_gallery.html.haml" />
+        <option value="$PROJECT_DIR$/source/contact.html.haml" />
       </list>
     </option>
   </component>
@@ -149,6 +195,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kateandrew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kateandrew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shared" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -370,16 +434,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/shared/_gallery.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="8" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.ru">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="65" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0929512" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/javascripts/90-kateandrew.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="21" selection-start="418" selection-end="418" vertical-scroll-proportion="0.1394268" />
@@ -388,16 +442,6 @@
     <entry file="file://$PROJECT_DIR$/source/javascripts/10-chillbox.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="560" column="119" selection-start="18557" selection-end="18591" vertical-scroll-proportion="0.09636651" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/contact.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="36" selection-end="4605" vertical-scroll-proportion="-2.5" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/design.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="16" selection-start="4631" selection-end="4631" vertical-scroll-proportion="-40.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/experience.html.haml">
@@ -422,11 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="20" selection-start="393" selection-end="393" vertical-scroll-proportion="0.1626646" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="272" selection-start="990" selection-end="990" vertical-scroll-proportion="0.5003873" />
@@ -444,12 +483,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/stylesheets/all.css.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="13" selection-start="668" selection-end="668" vertical-scroll-proportion="0.4298993" />
+        <state line="37" column="13" selection-start="668" selection-end="668" vertical-scroll-proportion="0.4298993">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/CNAME">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="6" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/shared/_gallery.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="262" selection-start="231" selection-end="231" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="94" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/design.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="24" selection-start="2875" selection-end="2875" vertical-scroll-proportion="-25.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/contact.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="18" selection-start="280" selection-end="280" vertical-scroll-proportion="0.28846154">
           <folding />
         </state>
       </provider>

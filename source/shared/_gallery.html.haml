@@ -1,5 +1,4 @@
 .gallery
-  - group_id = rand(1024).to_s
   - gallery_data(code).each_with_index do |img, i|
     - size = i == 0 ? :feature : :thumb
     %a{:href => img[:zoom], :class => 'gallery_'+size.to_s, :rel=>'ChillBoxGroup1'+group_id}

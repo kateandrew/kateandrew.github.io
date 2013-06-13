@@ -8,6 +8,7 @@ module Gallery
 
   module HelperMethods
     @code = 'main'
+    @group_id = {}
     def gallery_sizes(code = nil)
       sizes = {
           :thumb => {:width => 80, :height => 74, :crop => true},
@@ -54,7 +55,9 @@ module Gallery
     end
 
     def gallery(code)
-      partial 'shared/gallery', :locals => {:code => code.to_s}
+      @group_id ||= {}
+      @group_id[code] ||= 0
+      partial 'shared/gallery', :locals => {:code => code.to_s, :group_id => code.to_s+(@group_id[code] += 1).to_s}
     end
   end
 

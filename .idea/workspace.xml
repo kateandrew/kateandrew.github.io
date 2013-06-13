@@ -7,7 +7,7 @@
     <file path="/layout.html.haml" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1364881301137" ignored="false" />
     <file path="/_nav.html.haml" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1364884196514" ignored="false" />
     <file path="/_footer.html.haml" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1363767543678" ignored="false" />
-    <file path="/index.html.haml" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1364877972433" ignored="false" />
+    <file path="/index.html.haml" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1371116388781" ignored="false" />
     <file path="/all.css.scss" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1363757358082" ignored="false" />
     <file path="/reset.css.scss" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1363757139422" ignored="false" />
     <file path="/all.css" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1363757705000" ignored="false" />
@@ -60,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="7" column="95" selection-start="217" selection-end="217" vertical-scroll-proportion="0.08287293">
               <folding />
             </state>
           </provider>
@@ -123,7 +123,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CNAME" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CNAME" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/CNAME">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="49" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
@@ -151,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/source/shared/_section_title.html.haml" />
         <option value="$PROJECT_DIR$/source/shared/_gallery.html.haml" />
         <option value="$PROJECT_DIR$/build/config.ru" />
         <option value="$PROJECT_DIR$/config.ru" />
@@ -167,6 +166,7 @@
         <option value="$PROJECT_DIR$/build/index.html" />
         <option value="$PROJECT_DIR$/build/CNAME" />
         <option value="$PROJECT_DIR$/source/CNAME" />
+        <option value="$PROJECT_DIR$/source/index.html.haml" />
       </list>
     </option>
   </component>
@@ -231,20 +231,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kateandrew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kateandrew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -505,13 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/inspiration.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="16" selection-start="4613" selection-end="4613" vertical-scroll-proportion="-39.375">
@@ -547,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="31" selection-start="688" selection-end="688" vertical-scroll-proportion="-7.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="272" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0">
@@ -564,6 +536,20 @@
     <entry file="file://$PROJECT_DIR$/source/CNAME">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="49" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="31" selection-start="688" selection-end="688" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="95" selection-start="217" selection-end="217" vertical-scroll-proportion="0.08287293">
           <folding />
         </state>
       </provider>

@@ -30,6 +30,7 @@
     <file path="/experience.html.haml" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1364889623038" ignored="false" />
     <file path="/inspiration.html.haml" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1364889646262" ignored="false" />
     <file path="/contact.html.haml" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1371102742192" ignored="false" />
+    <file path="/CNAME" changelist="716c27ee-bf07-4e09-a67c-441a084dab0f" time="1371114703415" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,15 +50,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="contact.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/contact.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="36" selection-end="4605" vertical-scroll-proportion="-2.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="design.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/design.html.haml">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,7 +89,7 @@
       <file leaf-file-name="all.css.sass" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/stylesheets/all.css.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="55" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
+            <state line="37" column="13" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,7 +98,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="201" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,7 +107,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="14" column="103" selection-start="393" selection-end="393" vertical-scroll-proportion="0.1626646">
               <folding />
             </state>
           </provider>
@@ -133,7 +125,7 @@
       <file leaf-file-name="config.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="244" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0">
+            <state line="64" column="0" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -149,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/source/shared/_nav.html.haml" />
         <option value="$PROJECT_DIR$/source/shared/_head.html.haml" />
         <option value="$PROJECT_DIR$/nav.rb" />
         <option value="$PROJECT_DIR$/source/shared/_section_title.html.haml" />
@@ -165,6 +156,7 @@
         <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/rakefile.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/build/CNAME" />
       </list>
     </option>
   </component>
@@ -215,6 +207,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="kateandrew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kateandrew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kateandrew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -434,11 +440,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nav.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="28" selection-start="1584" selection-end="1584" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/shared/_head.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0" />
@@ -501,14 +502,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/stylesheets/all.css.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="55" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
+        <state line="37" column="13" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="244" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0">
+        <state line="64" column="0" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -522,14 +523,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="201" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="14" column="103" selection-start="393" selection-end="393" vertical-scroll-proportion="0.1626646">
           <folding />
         </state>
       </provider>

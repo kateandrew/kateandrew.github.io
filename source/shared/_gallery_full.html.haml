@@ -1,0 +1,5 @@
+.gallery
+  - gallery_data(code).each_with_index do |img|
+    %a{:href => img[:zoom], :class => 'gallery_feature', :rel=>'ChillBoxGroup1'+group_id}
+      %img{:src => img[:feature]}
+  .clear

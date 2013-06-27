@@ -1,0 +1,6 @@
+.gallery
+  - gallery_data(code).each_with_index do |img, i|
+    - size = i == 0 ? :feature : :half
+    %a{:href => img[:zoom], :class => 'gallery_'+size.to_s, :rel=>'ChillBoxGroup1'+group_id}
+      %img{:src => img[size], :style => 'margin:0 16px 16px 0'}
+  .clear

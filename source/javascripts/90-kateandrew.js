@@ -16,8 +16,13 @@ $(function(){
         var anchor = uri.substring(uri.indexOf('#'));
         $(this).click(function(){
             $('html, body').animate({
-                scrollTop: $(anchor).offset().top-60
+                scrollTop: $(anchor).offset().top-185
             }, 400);
         });
     });
+    (function($) {
+        $(document).ready( function() {
+            $('.e').emailLink();
+        } );
+    })(jQuery);
 });

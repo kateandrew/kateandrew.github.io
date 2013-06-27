@@ -12,6 +12,7 @@ module Gallery
     def gallery_sizes(code = nil)
       sizes = {
           :thumb => {:width => 80, :height => 74, :crop => true},
+          :half => {:width => 272, :height => 198, :crop => true},
           :feature => {:width => 560, :height => 420, :crop => true},
           :zoom => {width:1280, :height => 1024, :crop => false}
       }
@@ -54,10 +55,11 @@ module Gallery
       images
     end
 
-    def gallery(code)
+    def gallery(code, config = {})
       @group_id ||= {}
       @group_id[code] ||= 0
-      partial 'shared/gallery', :locals => {:code => code.to_s, :group_id => code.to_s+(@group_id[code] += 1).to_s}
+      config[:template] ||= 'gallery'
+      partial 'shared/'+config[:template], :locals => {:code => code.to_s, :group_id => code.to_s+(@group_id[code] += 1).to_s}
     end
   end
 

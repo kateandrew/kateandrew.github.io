@@ -25,4 +25,11 @@ $(function(){
             $('.e').emailLink();
         } );
     })(jQuery);
+    $(document).on('page:fetch', function() {
+        $('.title').spin('flower');
+    });
+    $(document).on('page:change', function() {
+        $('.title').spin(false);
+    });
+
 });

@@ -16,8 +16,8 @@ $(function(){
         var anchor = uri.substring(uri.indexOf('#'));
         $(this).click(function(){
             $('html, body').animate({
-                scrollTop: $(anchor).offset().top-185
-            }, 400);
+                scrollTop: $(anchor).offset().top-215
+            }, 500);
         });
     });
     (function($) {

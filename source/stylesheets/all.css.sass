@@ -42,7 +42,7 @@ header
   height: 120px
   .container
     background: white
-    padding-top: 65px
+    padding: 65px 0 31px
     position: fixed
   .top_nav
     float: left
@@ -70,6 +70,8 @@ header
     display: block
     padding: 0 0 24px
     color: #d0d0d0
+    &.sub_nav
+      margin-left: 24px
 .content
   float: left
   width: 560px
@@ -87,7 +89,9 @@ footer
   border-top: 1px solid #eee
   height: 120px
   padding: 24px 0
-  color: #ccc
+  color: #bbb
+  a
+    color: #bbb
 .normal-case *
   text-transform: none !important
 @import 'home'

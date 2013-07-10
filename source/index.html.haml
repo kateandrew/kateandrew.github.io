@@ -14,11 +14,11 @@ layout: home
   $(function(){
     $('.cover_images a').hover(function(){
       var hover_href = $(this).attr('href');
-      $('.top_nav a[href="'+hover_href+'"]').fadeTo(300, 1);
-      $('.top_nav a:not([href="'+hover_href+'"])').fadeTo(500, 0);
+      $('.top_nav a[href="'+hover_href+'"]').fadeTo(100, 1);
+      $('.top_nav a:not([href="'+hover_href+'"])').fadeTo(200, 0.4);
     })
     $('.cover_images').mouseleave(function(){
-      $('.top_nav a').fadeTo(300, 1);
+      $('.top_nav a').fadeTo(100, 1);
     });
   })
 

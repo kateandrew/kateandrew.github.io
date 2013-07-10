@@ -25,7 +25,7 @@ module AutoNav
       page = Nokogiri::HTML(@content)
       @sidebar_links = []
       page.css("a").select{|link| link['href'].blank? }.each do |link|
-        @sidebar_links << {:target => link['id'], :title => link['title'] ? link['title'] : link['id'].titleize}
+        @sidebar_links << {:target => link['id'], :class => link['class'], :title => link['title'] ? link['title'] : link['id'].titleize}
       end
       @sidebar_links
     end

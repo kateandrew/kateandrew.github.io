@@ -41,7 +41,7 @@ module Gallery
       image = Magick::Image.read(file).first
       size_data = gallery_sizes(size)
       newimg = size_data[:crop] ? image.resize_to_fill(size_data[:width], size_data[:height]) : image.resize_to_fit(size_data[:width], size_data[:height])
-      newimg.write(resized_image_path(file, size))
+      newimg.write(resized_image_path(file, size)) { self.quality = 90 }
     end
 
     def gallery_data(code)

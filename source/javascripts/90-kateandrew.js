@@ -14,9 +14,10 @@ $(function(){
     $('a[href^="#"], a[href^="'+window.location.pathname+'#"]').each(function(){
         var uri  = $(this).attr('href');
         var anchor = uri.substring(uri.indexOf('#'));
+        var modifier = 212;
         $(this).click(function(){
             $('html, body').animate({
-                scrollTop: $(anchor).offset().top-215
+                scrollTop: $(anchor).offset().top-modifier
             }, 500);
         });
     });

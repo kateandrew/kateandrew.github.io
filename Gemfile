@@ -2,7 +2,7 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 #gem 'rack-contrib'
-gem 'asset_sync', :git => 'git://github.com/2a6U37Nn/asset_sync.git'
+gem 'asset_sync'
 gem "middleman", "~>3.0.13"
 gem 'htmlentities'
 gem 'slugify'

@@ -6,7 +6,7 @@ gem 'asset_sync'
 gem "middleman", "~>3.0.13"
 gem 'htmlentities'
 gem 'slugify'
-gem 'rmagick'
+gem "mini_magick"
 gem 'nokogiri'
 gem 'middleman-smusher'
 gem 'middleman-favicon-maker'

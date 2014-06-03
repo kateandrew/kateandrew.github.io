@@ -11,4 +11,5 @@ gem 'nokogiri'
 gem 'middleman-smusher'
 gem 'middleman-favicon-maker'
 gem 'middleman-gh-pages'
+gem 'rmagick'
 

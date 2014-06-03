@@ -28,8 +28,11 @@ h2
 h3
   font-size: 24px
   padding: 16px 0 24px
+  text-transform: lowercase
   color: $text-color
   line-height: 130%
+strong
+  font-weight: bold
 .std
   text-align: justify
 .container
@@ -43,7 +46,6 @@ header
   .container
     background: white
     padding: 65px 0 31px
-    position: fixed
   .top_nav
     float: left
     line-height: 12px
@@ -65,13 +67,17 @@ header
   width: 140px
   padding-right: 40px
   float: left
-  position: fixed
+  position: absolute
   a
     display: block
     padding: 0 0 24px
     color: #d0d0d0
     &.sub_nav
       margin-left: 24px
+    &.back_to_top
+      &.fixed
+        top: 30px
+        position: fixed
 .content
   float: left
   width: 560px
@@ -96,4 +102,5 @@ footer
   text-transform: none !important
 @import 'home'
 @import 'gallery'
+
 

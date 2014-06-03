@@ -24,6 +24,16 @@ $(function(){
     (function($) {
         $(document).ready( function() {
             $('.e').emailLink();
+            var top = $('a.back_to_top').offset().top;
+            $(window).scroll(function (event) {
+                var y = $(this).scrollTop();
+                var el = $('a.back_to_top')
+                if (y+30 >= top)
+                    el.addClass('fixed');
+                else
+                    el.removeClass('fixed');
+                el.width(el.parent().width());
+            });
         } );
     })(jQuery);
     $(document).on('page:fetch', function() {

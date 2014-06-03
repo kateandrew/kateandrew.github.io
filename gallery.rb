@@ -13,7 +13,7 @@ module Gallery
       sizes = {
           :thumb => {:width => 80, :height => 74, :crop => true},
           :half => {:width => 272, :height => 198, :crop => true},
-          :feature => {:width => 560, :height => 420, :crop => true},
+          :feature => {:width => 560, :crop => false},
           :zoom => {width:1280, :height => 1024, :crop => false}
       }
       code ? sizes[code] : sizes
@@ -48,6 +48,7 @@ module Gallery
       @code = code
       path = File.join(root, source, images_dir, 'galleries', code)
       files = Dir.glob("#{path}/*.{jpg,png,gif}")
+      files.sort_by! {|file| File.basename(file)}
       images = []
       files.each do |file|
         images << image_data(file)

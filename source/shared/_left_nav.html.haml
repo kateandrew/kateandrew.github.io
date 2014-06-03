@@ -1,4 +1,6 @@
 .left_nav
   -left_nav_data.each do |anchor|
     %a{:href => '#'+anchor[:target], :class => anchor[:class]}=anchor[:title]
-  %a.back_to_top{href: '#top'} Back to Top
+  %a.back_to_top{href: '#top'}
+    Back to Top
+    %span.caret_up

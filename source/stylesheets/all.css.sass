@@ -16,15 +16,21 @@ a
     text-decoration: underline
 h1
   font-size: 54px
+  margin-top: 1.25em
   padding:  0 0 24px
   text-transform: lowercase
   color:  $text-color-heading
   font-weight: bold
+  &:first-of-type
+    margin-top: 0
 h2
   font-size: 44px
   padding:  24px 0 12px
   text-transform: lowercase
   color:  $text-color-heading
+  margin-top: 1em
+  &:first-of-type
+    margin-top: 0.5em
 h3
   font-size: 24px
   padding: 16px 0 24px
@@ -78,6 +84,20 @@ header
       &.fixed
         top: 30px
         position: fixed
+        .caret_up
+          display: block
+      .caret_up
+        width: 0
+        height: 0
+        border-style: inset
+        border-width: 0 9px 10px 9px
+        border-color: transparent transparent #cccccc transparent
+        display: none
+        position: absolute
+        right: 1em
+        top: 0.55em
+        -webkit-transform: rotate(360deg)
+
 .content
   float: left
   width: 560px

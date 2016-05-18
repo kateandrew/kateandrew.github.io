@@ -3,7 +3,7 @@
 source 'http://rubygems.org'
 #gem 'rack-contrib'
 gem 'asset_sync'
-gem "middleman", "~>3.0.13"
+gem "middleman", "~>3.1"
 gem 'htmlentities'
 gem 'slugify'
 gem "mini_magick"

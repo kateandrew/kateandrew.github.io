@@ -6,7 +6,7 @@ module Gallery
         :thumb => {:width => 80, :height => 74, :crop => true},
         :half => {:width => 272, :height => 198, :crop => true},
         :feature => {:width => 560, :crop => false},
-        :zoom => {width:1280, :height => 1024, :crop => false}
+        :zoom => {width:800, :height => 600, :crop => false}
     }
     code ? sizes[code] : sizes
   end

@@ -1,0 +1,16 @@
+.index header {
+  height: 84px; }
+  .index header .container {
+    position: absolute; }
+
+.cover_images {
+  height: 370px; }
+  .cover_images a {
+    float: left;
+    padding-right: 17px; }
+
+.cover_text {
+  font-size: 16px;
+  clear: both;
+  padding: 32px 0;
+  line-height: 175%; }

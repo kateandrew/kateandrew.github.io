@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='apple-touch-icon-144x144-precomposed.png' rel='apple-touch-icon' sizes='144x144'>
+    <link href='apple-touch-icon-114x114-precomposed.png' rel='apple-touch-icon' sizes='114x114'>
+    <link href='apple-touch-icon-72x72-precomposed.png' rel='apple-touch-icon' sizes='72x72'>
+    <link href='apple-touch-icon-precomposed.png' rel='apple-touch-icon'>
+    <link href='favicon.png' rel='shortcut icon'>
+    <link href='favicon.ico' rel='icon' type='image/ico'>
+    <meta charset='utf-8'>
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Project Manager - Kate Andrew</title>
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" />
+    <link href="/stylesheets/all.css" rel="stylesheet" />
+    <script src="/javascripts/all.js"></script>
+  </head>
+  <body class='index'>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-24341865-4', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <header>
+      <div class='container'>
+        <div class='top_nav'>
+          <a class='' href='about.html'>About</a>
+          <a class='' href='experience.html'>Experience</a>
+          <a class='' href='contact.html'>Contact</a>
+        </div>
+        <div class='title'>Kate Andrew</div>
+      </div>
+    </header>
+    <div class='main'>
+      <div class='container'>
+        <div class='cover_images'>
+          <a href='about.html'><img src="/images/cover_about.jpg" width="235" height="430" alt="Cover about" /></a>
+          <a href='experience.html'><img src="/images/cover_experience.jpg" width="235" height="430" alt="Cover experience" /></a>
+          <a href='contact.html' style='padding-right:0'><img src="/images/cover_contact.jpg" width="235" height="430" alt="Cover contact" /></a>
+        </div>
+        <div class='cover_text std'>
+          <span style='line-height:0.3em'>"If a building is too strong or brutal, it tends to overpower man. In it he feels insecure and uncomfortable. A monument to the ego of the particular owner or architect is contradictory to the principle that</span>
+          <span style='font-size:24px'>each man who uses the building should be able, through his environment, to have the sense of dignity and individual strength to carry on his hopes and aspirations" - Minoru Yamasaki</span>
+        </div>
+        <script>
+          $(function(){
+            $('.cover_images a').hover(function(){
+              var hover_href = $(this).attr('href');
+              $('.top_nav a[href="'+hover_href+'"]').fadeTo(100, 1);
+              $('.top_nav a:not([href="'+hover_href+'"])').fadeTo(200, 0.4);
+            })
+            $('.cover_images').mouseleave(function(){
+              $('.top_nav a').fadeTo(100, 1);
+            });
+          })
+        </script>
+      </div>
+      <div class='clear'></div>
+    </div>
+    <div class='loading_indicator'></div>
+  </body>
+  <footer>
+    <div class='container'>
+      <p style='float:right'>
+        <span class='e'>kate</span>
+      </p>
+      <p>
+        &copy; Kate Andrew 2016
+      </p>
+    </div>
+  </footer>
+</html>

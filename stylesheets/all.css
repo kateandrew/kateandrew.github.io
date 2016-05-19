@@ -1,0 +1,214 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  display: block; }
+
+body {
+  color: #555;
+  font-family: "Lato", sans-serif;
+  line-height: 160%; }
+
+.clear {
+  clear: both;
+  height: 1px; }
+
+a {
+  color: blue;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+h1 {
+  font-size: 54px;
+  margin-top: 1.25em;
+  padding: 0 0 24px;
+  text-transform: lowercase;
+  color: #a6a6a6;
+  font-weight: bold; }
+  h1:first-of-type {
+    margin-top: 0; }
+
+h2 {
+  font-size: 44px;
+  padding: 24px 0 12px;
+  text-transform: lowercase;
+  color: #a6a6a6;
+  margin-top: 1em;
+  text-align: left;
+  line-height: 1.2em; }
+  h2:first-of-type {
+    margin-top: 0.5em; }
+
+h3 {
+  font-size: 24px;
+  padding: 16px 0 24px;
+  text-transform: lowercase;
+  color: #555;
+  line-height: 130%; }
+
+strong {
+  font-weight: bold; }
+
+.std {
+  text-align: justify; }
+
+.container {
+  width: 740px;
+  margin: 0 auto;
+  clear: both; }
+
+header {
+  width: 740px;
+  margin: 0px auto;
+  height: 120px; }
+  header .container {
+    background: white;
+    padding: 65px 0 31px; }
+  header .top_nav {
+    float: left;
+    line-height: 12px;
+    margin-top: 34px; }
+    header .top_nav a {
+      padding-right: 18px;
+      color: #999; }
+      header .top_nav a.active {
+        color: #555; }
+
+.title {
+  text-transform: lowercase;
+  float: right;
+  font-size: 54px;
+  line-height: 54px;
+  font-weight: bold; }
+  .title a {
+    color: #555; }
+
+.left_nav {
+  width: 140px;
+  padding-right: 40px;
+  float: left;
+  position: absolute; }
+  .left_nav a {
+    display: block;
+    padding: 0 0 24px;
+    color: #d0d0d0; }
+    .left_nav a.sub_nav {
+      margin-left: 24px; }
+    .left_nav a.back_to_top.fixed {
+      top: 30px;
+      position: fixed; }
+      .left_nav a.back_to_top.fixed .caret_up {
+        display: block; }
+    .left_nav a.back_to_top .caret_up {
+      width: 0;
+      height: 0;
+      border-style: inset;
+      border-width: 0 9px 10px 9px;
+      border-color: transparent transparent #cccccc transparent;
+      display: none;
+      position: absolute;
+      right: 1em;
+      top: 0.55em;
+      -webkit-transform: rotate(360deg); }
+
+.content {
+  float: left;
+  width: 560px;
+  text-align: justify;
+  margin-left: 180px; }
+  .content p {
+    margin: 9px 0 18px; }
+  .content img {
+    margin: 24px 0; }
+
+.main {
+  padding: 65px 0; }
+
+footer {
+  clear: both;
+  background: #f9f9f9;
+  border-top: 1px solid #eee;
+  height: 120px;
+  padding: 24px 0;
+  color: #bbb; }
+  footer a {
+    color: #bbb; }
+
+.normal-case * {
+  text-transform: none !important; }
+
+.index header {
+  height: 84px; }
+  .index header .container {
+    position: absolute; }
+
+.cover_images {
+  height: 370px; }
+  .cover_images a {
+    float: left;
+    padding-right: 17px; }
+
+.cover_text {
+  font-size: 16px;
+  clear: both;
+  padding: 32px 0;
+  line-height: 175%; }
+
+.gallery {
+  margin-right: -18px; }
+  .gallery img {
+    background: #ccc; }
+  .gallery a.gallery_thumb {
+    float: left;
+    margin-right: 16px; }
+    .gallery a.gallery_thumb img {
+      width: 80px;
+      height: 74px; }
+  .gallery a.gallery_half {
+    float: left; }
+    .gallery a.gallery_half img {
+      width: 272px;
+      height: 198px; }
+  .gallery a.gallery_feature img {
+    width: 560px; }

@@ -1,0 +1,17 @@
+.gallery {
+  margin-right: -18px; }
+  .gallery img {
+    background: #ccc; }
+  .gallery a.gallery_thumb {
+    float: left;
+    margin-right: 16px; }
+    .gallery a.gallery_thumb img {
+      width: 80px;
+      height: 74px; }
+  .gallery a.gallery_half {
+    float: left; }
+    .gallery a.gallery_half img {
+      width: 272px;
+      height: 198px; }
+  .gallery a.gallery_feature img {
+    width: 560px; }
